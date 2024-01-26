@@ -38,6 +38,16 @@ npm run dev
 
 [EditorConfig](https://editorconfig.org/) 有助于跨不同编辑器和 IDE 处理同一项目的多个开发人员保持一致的编码风格。
 
+通过 EditorConfig 的重要配置项解释如何保持一致的编码风格
+
+- end_of_line 用于设置文本换行的方式
+
+`CRLF: "\r\n"`, windows系统环境下的换行方式
+
+`LF: "\n"`, Linux系统环境下的换行方式
+
+其他没啥区别，与操作系统换行策略有关。如果同一个项目，开发人员使用不同操作系统的编辑器或 IDE 开发，可以统一使用 lf 还是 crlf
+
 ## Prettier
 
 ## ESLint
