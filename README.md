@@ -40,6 +40,16 @@ npm run dev
 
 通过 EditorConfig 的重要配置项解释如何保持一致的编码风格
 
+- insert_final_newline 用于设置文件是否以一个空白行结尾
+
+`insert_final_newline: true` 的效果如下
+
+<img width="615" alt="截屏2024-01-26 11 33 42" src="https://github.com/unikww/fe-engineering/assets/45612221/33608ba0-034c-4377-bb97-cf079e71ba47">
+
+`insert_final_newline: false` 的效果如下
+
+<img width="615" alt="截屏2024-01-26 11 35 31" src="https://github.com/unikww/fe-engineering/assets/45612221/71a67d0d-1c46-4568-a5dd-28e4d155a032">
+
 - end_of_line 用于设置文本换行的方式
 
 `CRLF: "\r\n"`, windows系统环境下的换行方式
