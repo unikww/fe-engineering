@@ -22,6 +22,17 @@ npm i vite --save-dev
 
 然后在根目录依次添加 `index.html`、`main.js` 等文件，目录文件如下
 
+![目录文件](https://github.com/unikww/fe-engineering/assets/45612221/640631e1-158b-4825-abce-8e422bac0b86)
+
+在终端中运行下面的命令
+
+```shell
+npm run dev
+```
+
+在浏览器地址栏输入 http://localhost:5173/ 就可以正常访问
+
+一个非常简单的 Vite 小项目正常运行起来，接下来为这个小项目加入各种工具，使它能胜任任何业务开发
 
 ## EditorConfig
 
