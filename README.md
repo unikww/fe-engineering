@@ -73,7 +73,7 @@ npm run dev
 笔者选用 Vitest 作为本项目的测试框架，在项目中添加 Vitest
 
 ```shell
-npm i vitest --save-dev
+npm i vitest @testing-library/react @testing-library/jest-dom happy-dom --save-dev
 ```
 
 
